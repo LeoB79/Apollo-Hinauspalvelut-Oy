@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo_harjoitus</title>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+
+
+
+    <!-- Header Section -->
+    <div class="header" id ="home">
+        <nav id="navbar">
+            <a href="#home" class="logo"><img src = "apollo-logo.png"></a>
+            <div class="links" id="nav">
+              <a href="#home">Etusivu</a>
+              <a href="#about">Yritys</a>
+              <a href="#galleria">Galleria</a>
+              <a href="#blog">Blogi</a>
+              <a href="#service">Palvelut</a>
+              <a href="#area">Toimialueet</a>
+              <a href="#contact">Yhteystiedot</a>
+            </div>
+          <div class ="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+          <div class ="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Tarjoamme kaikki hinaus- ja korjauspalvelut</h3>
+            <h1>Hätäpalvelut nopeasti <br>  24h -päivystyksenä</h1>
+            <a href="#contact">
+            <button class="btn">0400 463 333</button></a>
+            
+            <!-- Localisation -->
+            
+            <!--
+              <div class="pos">
+              <h3 class="status"></h3>
+                <button class="find-place">My location</button>
+            </div>
+          -->
+        </div>
+    </div>
+    <!-- Header Section End -->
+    
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+    <div class="image">
+
+    </div>
+
+    <div class="about-content">
+        <h1>Luotettava hinauspalvelu</h1>
+        <h3>Tarjoamme kaikki hinaus- ja korjauspalvelut, joita voit tien päällä hädässä tarvita. Yleisimmät tehtävämme ovat:</h3>
+        <ul class="hätäpalvelut">
+          <li>Korjaamolle hinaukset</li>
+          <li>Kolaritilanteet</li>
+          <li>Käynnistyspalvelut</li>
+          <li>Polttoaineen loppumiset</li>
+          <li>Renkaanvaihdot</li>
+          <li>Polttoainetankkien tyhjennykset väärän polttoaineen tankkaamisen jälkeen</li>
+          <li>Jäätymis- ja kosteusongelmat</li>
+          <li>Muut auton toimintaongelmat</li>
+        </ul>  
+        <h3>Hinaustilanteissa selvitämme vakuutuksesi kattavuuden ja mahdollisuuksien mukaan hoidamme kaikki syntyvät kulut suoraan vakuutusyhtiösi kanssa.</h3>
+        <a href="meista.html">
+        <button class="btn" style="color:black;">Meistä</button></a>
+    
+    </div>
+
+           </div>
+             </section>
+   
+   <!-- About Section End -->
+
+   <!--test galleria-->' 
+   
+   <section class="galleria"id="galleria">
+    
+      <h1 class="heading">Meidän <span>Galleria</span></h1>   
+      <p>Selaa kuvia</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post1.jpg">
+      <img src="img/post1.jpg" alt="Cinque Terre" width="600" height="00">
+    </a>
+    
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post2.jpg">
+      <img src="img/post2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post3.jpg">
+      <img src="img/post3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post4.jpg">
+      <img src="img/post4.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post5.jpg">
+      <img src="img/post5.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post6.jpg">
+      <img src="img/post6.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post7.jpg">
+      <img src="img/post7.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/post8.jpg">
+      <img src="img/post8.jpg" alt="Mountains" width="600" height="400">
+    </a>
+  </div>
+</div>
+<div class="clearfix"></div>
+   </div>
+  </section>
+   <!--test galleria end-->
+
+  
+
+   
+   <!-- Blog Section -->
+   <section class="blog" id="blog">
+    <h1 class="heading">Meidän <span>Blogi</span></h1>
+    <p class="heading-description">Apollo Hinauspalvelut Oy tarjoaa nopeasti ja asiantuntevasti kaikki hinaus- ja korjauspalvelut</p>
+    <div class="container">
+      <div class="post">
+         <div class="blog-img">
+          <img src="img/blog1.jpg" alt="">
+          <span>10 <br> Kesäkuu</span>
+         </div>
+         <div class="blog-content">
+          <h3>Admin |<span> Apollohinaus</span></h3>
+          <h1>Vinkkejä auton ylläpitoon</h1>
+          <p>Auton ylläpito on joskus yllättävänkin yksinkertaista, mutta siitä huolimatta asiat tuppaavat unohtumaan.
+             Joskus hyvinkin pienillä vinkeillä on mahdollista pidentää auton käyttöikää, hallita auton arvoa ja säästää rahaa.</p>
+         </div>
+      </div>
+      <div class="post">
+        <div class="blog-img">
+         <img src="img/blog2.jpg" alt="">
+         <span>20 <br> Heinäkuu</span>
+        </div>
+        <div class="blog-content">
+         <h3>Admin |<span> Apollohinaus</span></h3>
+         <h1>Auto ei käynnisty </h1>
+         <p>Auton akun tyhjentyminen on yleisin syy sille, että auto ei käynnisty. Jos autoa käynnistäessä kuuluu naksumista, se viittaa yleensä siihen, että auton akku on tyhjentynyt ja sen takia auto lähde käyntiin. Apukäynnistys on hyvä jättää ammattilaiselle.</p>
+        </div>
+     </div>
+     <div class="post">
+      <div class="blog-img">
+       <img src="img/blog3.jpg" alt="">
+       <span>04 <br> Elokuu</span>
+      </div>
+      <div class="blog-content">
+       <h3>Admin |<span> Apollohinaus</span></h3>
+       <h1>Renkaanvaihto</h1>
+       <p>Auton renkaiden vaihtaminen sujuu näppärästi ja turvallisesti omatoimiselta autoilijalta, mikäli renkaanvaihdon eri vaiheet ovat muistissa ja autotallista löytyy asiaan vaadittavat laadukkaat välineet.</p>
+      </div>
+   </div>
+
+    </div>
+  </section>
+   <!-- Galleria/Blog Section End -->
+
+   <section class="service"id="service">
+    <h1 class="heading">Meidän <span>Palvelut</span></h1>
+    <p class="heading-description">Ota yhteyttä niin keskustellaan tarkemmin!</p>
+    <div class="container">
+      <div class="service-box">
+        <a href="autohuolto.html" target="_blank">
+        <div class="service-img">
+        <img src="img/menu-1.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Apollo Autohuolto</h3>
+        <p>Säännöllisellä huoltovälillä varmistat, että autosi pysyy kunnossa! Huollamme ammattitaitoisesti kaikkia automerkkejä.
+          Asiantunteva henkilökuntamme palvelee sinua kaikissa autosi huolto-asioissa.</p>
+          <button class="btn" style ="color: black;">Lue lisää</button>
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="kuljetuspalvelu.html" target="_blank">
+        <div class="service-img">
+        <img src="img/menu-2.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Kuljetuspalvelut</h3>
+        <p>Apollo Hinauspalvelut Oy tarjoaa henkilö- ja pakettiautojen kuljetuspalvelut asiakkaan tarpeen ja sopimuksen mukaan. Meiltä saat kuljetuspalvelut edullisella hinnalla. Palvelemme Uudenmaan lisäksi koko Suomen alueella.
+        </p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="hatapalvelu.html" target="_blank">
+        <div class="service-img">
+        <img src="img/menu-3.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Hätäpalvelu</h3>
+        <p>Tarjoamme 24h -päivystyksenä kaikki hinaus- ja korjauspalvelut, joita voit tien päällä hädässä tarvita. Palvelemme asiakkaita toimialueenamme koko Uusimaa. Hinaustilanteissa selvitämme vakuutuksesi kattavuuden</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+      </div></a>
+      </div>
+      <div class="service-box">
+        <a href="hatapalvelu.html" target="_blank">
+        <div class="service-img">
+        <img src="img/menu-4.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Hinauspalvelut</h3>
+        <p>Apollo Hinauspalvelut Oy tarjoaa hinauspalvelut 24h päivystyksenä. Palvelemme asiakkaita nopeasti ja asiantuntevasti pääkaupunkiseudulla ja koko Uudellamaalla. Tarjoamme luotettavan ja ripeän avun yllättävissäkin tilanteissa.</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+       </div></a>
+      </div>
+      <div class="service-box">
+        <a href="kolarikorjauspalvelu.html" target="_blank">
+        <div class="service-img">
+        <img src="img/menu-5.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Kolarikorjaus</h3>
+        <p>Palvelemme kolaritilanteen sattuessa hinauspalvelun lisäksi myös kolarikorjaukseen liittyvissä asioissa! Toimialueeseemme kuuluu koko Uusimaa. Kolaritilanteessa voimme tarvittaessa huolehtia ajoneuvon hinauspalvelun...</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="kaynnistysapupalvelu.html" target="_blank">
+
+        <div class="service-img">
+        <img src="img/menu-6.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Käynnistysapu</h3>
+        <p>Meiltä auton käynnistysapu 24h -päivystyksenä hätätilanteen sattuessa tien päällä! Auton käynnistymättömyys voi johtua useasta eri syystä, joista yleisimpiä ovat polttoaineen loppuminen, akkuun liittyvät ongelmat ja ...</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="romuttamo.html" target="_blank">
+
+        <div class="service-img">
+        <img src="img/menu-7.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Romuttamo</h3>
+        <p>Kuljetamme myös romutettaviksi päätyvät ajoneuvot ja hoidamme hävityksen puolestasi.
+
+        </p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="laskutus.html" target="_blank">
+
+        <div class="service-img">
+        <img src="img/menu-8.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Laskutus</h3>
+        <p>Laskutamme suoraan vakuutusyhtiöitä<br> Tee seuraavista...</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+
+        </div></a>
+      </div>
+      <div class="service-box">
+        <a href="ohjeet.html" target="_blank">
+
+        <div class="service-img">
+        <img src="img/menu-9.png" alt="">
+        </div>
+        <div class="service-content">
+        <h3>Ohjeet</h3>
+        <p>Onnettomuuden sattuessa sammuta ajoneuvosi välittömästi.</p>
+        <button class="btn" style ="color: black;">Lue lisää</button>
+
+
+        </div></a>
+      </div>
+    </div>
+   </section>
+   <!-- Service Section End-->
+
+   <!-- Area Section -->
+  
+   <section class="area" id="area">
+      <h1 class="heading">Meidän <span>Toimialueet</span></h1>  
+      <p class="heading-description">Tarjoamme 24h -päivystyksenä nopeasti kaikenlaiset korjaus- ja hinauspalvelut</p>
+      <div class="container">
+        <div class="area-box">
+          <div class="area-img">
+          <img src="img/pic-1.png" alt="">
+        </div>
+        <div class="area-content">
+          <h3>Espoo</h3>
+          <p>Korjaus- <br> ja hinauspalvelu</p>
+          <div class="social">
+               <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+         </div>
+      </div>
+      <div class="area-box">
+        <div class="area-img">
+        <img src="img/pic-1.png" alt="">
+      </div>
+      <div class="area-content">
+        <h3>Helsinki</h3>
+        <p>Korjaus-, hinauspalvelu ja kuljetuspalvelut</p>
+         <div class="social">
+             <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+       </div>
+    </div>
+    <div class="area-box">
+      <div class="area-img">
+      <img src="img/pic-1.png" alt="">
+    </div>
+    <div class="area-content">
+      <h3>Vantaa</h3>
+      <p>Monipuoliset <br>-24h palvelut</p>
+         <div class="social">
+           <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-facebook-f"></i></a>
+           <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+     </div>
+  </div>
+  <div class="area-box">
+    <div class="area-img">
+    <img src="img/pic-1.png" alt="">
+  </div>
+  <div class="area-content">
+    <h3>Uusimaa</h3>
+    <p>Palvelut <br> kaikkiin tarpeisiin</p>
+       <div class="social">
+          <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-twitter"></i></a>
+       
+      </div>
+   </div>
+</div>
+    </div>
+</section>
+ <!-- Area Section End -->
+
+ <!--Contact Section-->
+ <section class="contact" id="contact">
+     <h1 class="heading">Ota <span>Yhteyttä</span></h1>
+     <p class="heading-description">Voit aina soittaa meille</p>
+     <div class="container">
+      <a href="lomake.html" style="color:black" target="_blank">
+      <div class="contact-box">
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <h2>Sähköpostiosoite <br> <span>Lähetä s-postia</span></h2>
+        </div>
+       <div>
+       <p>info@apollohinaus.fi</p>
+       <i class="fa-solid fa-right-long"></i>
+     </div>
+    
+    </div> </a>
+    <div class="contact-box">
+      <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <h2>Osoite <br> <span>Löydä meidät</span></h2>
+      </div>
+     <div>
+     <p>Vanha talvitie 5, 00580 Helsinki</p>
+     <i class="fa-solid fa-right-long"></i>
+   </div>
+  </div> 
+  <div class="contact-box">
+    <div>
+      <i class="fa-solid fa-phone"></i>
+      <h2>Soita <br> <span>Soita meille</span></h2>
+    </div>
+   <div>
+   <p>0400 463 333</p>
+   <i class="fa-solid fa-right-long"></i>
+   </div>
+   </div> 
+  </div>
+</section>
+ 
+<!--Contact Section End -->
+
+<!--Footer Section -->
+<section class="footer">
+
+  <div class="container">
+    <div class="footer-box">
+      <h3>Meistä</h3>
+      <p>Apollo Hinauspalvelut Oy.<p>
+      <p>Copyrights &copy; 2023 All rights reserved By <a href="https://www.apollohinaus.fi">Apollo hinaus</a></p>
+    
+    </div>
+    <div class="footer-box">
+      <h3>Uutiskirje</h3>
+      <p>Pysy ajan tasaalla uusimmista</p>
+      <form>
+        <input type="email" name="email" placeholder="info@apollohinaus.fi">
+        <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+       
+      </form>
+    </div>
+    <div class="footer-box">
+      <h3>Seura meidät</h3>
+      <p>Ollan yhteydessä:</p>
+     
+      <div>
+        <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/Apollohinaus/"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+  </div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<!--Contact Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
